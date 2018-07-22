@@ -1,0 +1,16 @@
+logging:
+  file: log/example.log
+  level:
+    com.thinkbit.*: info
+
+thinkbit:
+  key: cae9b026ec117935a0530a2fbc70445c
+  secret: 5d6bd9b6d74da2eb869bbc2d58a79d0468139dd49674c547bb06b2074d6b0e27
+  rest:
+    server: https://api.thinkbit.com/v1
+    endpoint:
+      account-balance: /account/balance
+      order-create: /order/create
+      order-cancel: /order/cancel
+      order-active: /prder/active
+
